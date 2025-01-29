@@ -1,0 +1,47 @@
+# Editor temporary/working/backup files #
+#########################################
+.vscode/
+.idea/
+.settings/
+
+# Compiled source #
+###################
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.o.d
+*.py[ocd]
+*.so
+*.mod
+
+# Python files #
+################
+build/
+build-install
+__pycache__/
+dist/
+wheel/
+.python-version
+# Egg metadata
+*.egg-info
+# Virtual environments
+.venv/
+
+# OS generated files #
+######################
+.DS_Store*
+.VolumeIcon.icns
+.fseventsd
+Icon?
+.gdb_history
+ehthumbs.db
+Thumbs.db
+.directory
+
+# pytest generated files #
+##########################
+.pytest_cache/
+.benchmarks/

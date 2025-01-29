@@ -1,0 +1,18 @@
+[project]
+name = "pyeigen"
+authors = [{ name = "Ling Yu", email = "yulingsc@outlook.com" }]
+version = "1.0.0"
+description = "Python Wrapper for Eigen3"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+tests = ["pytest"]
+
+[build-system]
+build-backend = 'mesonpy'
+requires = ['meson-python']
+[tool.uv]
+required-version = ">=0.5.18"
+dev-dependencies = ["meson-python>=0.17.1"]
