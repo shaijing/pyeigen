@@ -5,7 +5,7 @@ version = "1.0.0"
 description = "Python Wrapper for Eigen3"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["numpy>=2.2.0"]
 
 [project.optional-dependencies]
 tests = ["pytest"]

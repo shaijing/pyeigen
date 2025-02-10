@@ -29,6 +29,7 @@ wheel/
 *.egg-info
 # Virtual environments
 .venv/
+uv.lock
 
 # OS generated files #
 ######################

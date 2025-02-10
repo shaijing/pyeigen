@@ -9,8 +9,8 @@ project(
   ],
 )
 
-# py = import('python').find_installation('python3.13t',pure: false)
-py = import('python').find_installation('python3.13', pure: false)
+# py = import('python').find_installation('python3.12',pure: false)
+py = import('python').find_installation(pure: false)
 py_dep = py.dependency()
 
 subdir('pyeigen')

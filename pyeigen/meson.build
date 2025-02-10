@@ -5,11 +5,12 @@ if mkl.found()
     cpp_flag += '-DUSE_MKL'
 endif
 eigen3 = dependency('eigen3')
+numpy = dependency('numpy')
 py.extension_module(
     'matrix',
-    sources: ['matrix.cpp'],
+    sources: ['matrix.h', 'matrix.cpp'],
     cpp_args: cpp_flag,
-    dependencies: [py_dep, mkl, eigen3],
+    dependencies: [py_dep, mkl, eigen3, numpy],
     install: true,
     subdir: 'pyeigen',
 )
